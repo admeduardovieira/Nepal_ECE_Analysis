@@ -152,7 +152,7 @@ Nepal_ECE_Analysis/
 ├── Analysis.do                        ← Main Stata 17 analysis script
 │                                        (survey-weighted logistic regression,
 │                                         crude & adjusted ORs, ROC/AUC, stratified models)
-├── Data managemnt.do                  ← Stata data management & preprocessing
+├── Data management.do                  ← Stata data management & preprocessing
 │                                        (cleaning, recoding, de jure restriction,
 │                                         WASH variable construction, survey setup)
 ├── Salek.R                            ← R script (v4.5.1) for all figures:
@@ -186,7 +186,7 @@ cd "/path/to/Nepal_ECE_Analysis"
 
 * Run data cleaning, recoding, and variable construction
 * Applies de jure restriction, handles missing data, constructs WASH composites
-do "Data managemnt.do"
+do "Data management.do"
 ```
 
 ### Step 2 — Statistical Analysis (Stata 17)

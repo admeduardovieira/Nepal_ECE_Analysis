@@ -1,0 +1,1 @@
+* Configuration for paths - adjust to your environmentglobal datapath "data"global outpath "output"capture mkdir ""

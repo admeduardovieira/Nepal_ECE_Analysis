@@ -1,0 +1,1 @@
+# config for Rdata_dir <- Sys.getenv("NEPAL_ECE_DATA", "data/")
